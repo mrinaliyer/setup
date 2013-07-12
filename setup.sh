@@ -49,6 +49,6 @@ git config --global user.name "Mrinal Iyer"
 git config --global user.email "mrinal@umich.edu"  
 
 export GITLOG='git log --pretty=format:"%ar : "%s --graph' 
-echo "alias gitlog='$MESH'">>~/.bashrc_custom
+echo "alias gitlog='$GITLOG'">>~/.bashrc_custom
 . ~/.bashrc
 
