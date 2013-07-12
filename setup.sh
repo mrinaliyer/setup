@@ -47,5 +47,7 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh |sh
 # set user name and email for git
 git config --global user.name "Mrinal Iyer"
 git config --global user.email "mrinal@umich.edu"  
-# create an easy alias for git log
-alias gitlog='git log --pretty=format:"%ar : %s" --graph'
+
+echo " alias gitlog='git log --pretty=format:"%ar : %s" --graph' " >>~/.bashrc_custom
+. ~/.bashrc
+
